@@ -1,0 +1,48 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://mdbcdn.b-cdn.net/img/new/slides/040.webp);
+  height: 100vh;
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://mdbcdn.b-cdn.net/img/new/slides/055.webp);
+  height: 100vh;
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://mdbcdn.b-cdn.net/img/new/slides/045.webp);
+  height: 100vh;
+}
+
+.nut:before {
+  content: ". ";
+  color: rgb(13, 14, 16);
+  display: inline-block;
+  font-size: 1rem;
+  padding-right: 5px;
+}
+
+.nut {
+  position: relative;
+}
+
+.nut::before {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+
+.footerpage {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.list-group,
+.list-group-item {
+  border: none;
+}
